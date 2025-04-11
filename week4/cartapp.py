@@ -1,8 +1,6 @@
 itemlist=[]
 pricelist=[]
 def additem(item,price):
-  # item=input("Enter the item you want to add to your cart")
-  # price=int(input("Enter the price of the item added"))
   pricelist.append(price)
   itemlist.append(item)
   print(item,"has been successfully added to your cart.")
